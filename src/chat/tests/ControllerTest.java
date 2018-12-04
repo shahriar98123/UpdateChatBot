@@ -7,11 +7,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 import chat.controller.ChatController;
+import chatController.ChatBotController;
 
 public class ControllerTest
 {
 
-	private ChatController testController;
+	private ChatBotController testController;
 	@Before
 	public void setUp() throws Exception
 	{
