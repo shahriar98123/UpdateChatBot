@@ -6,7 +6,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import chat.controller.ChatController;
 import chatController.ChatBotController;
 
 public class ControllerTest
@@ -16,7 +15,7 @@ public class ControllerTest
 	@Before
 	public void setUp() throws Exception
 	{
-		testController = new ChatController();
+		testController = new ChatBotController();
 	}
 
 	@After

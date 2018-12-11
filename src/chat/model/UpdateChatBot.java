@@ -54,16 +54,11 @@ public class UpdateChatBot {
 		// TODO Auto-generated method stub
 		return false;
 		
-	private void buildTheLists()
-	{
-		responseList.add("Hello! How are you?");
-		responseList.add("That was an innapropriate comment, Goodbye");
-		
-		spookyList.add("Halloween");
-		spookyList.add("Boo");
+	
+	
 	}
 		
 		
 	}
 
-}
+
