@@ -16,5 +16,15 @@ public class ChatBotController {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	private void close()
+	{
+		System.exit(0);
+	}
+	
+	public void handleErrors(Exception error)
+	{
+		JOPtionPane
+	}
 
 }
