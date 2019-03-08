@@ -19,16 +19,13 @@ public class SampleFrame<GUIController> extends JFrame
 	
 	private void setupFrame()
 	{
-		this.setContentPane(appPanel);;
+		this.setContentPane(appPanel);
 		this.setTitle("MY GUI App!");
 		this.setSize(1000, 500);
 		this.setResizable(false);;
 		this.setVisible(true);
 	}
 
-	private void setContentPane(SampleModel appPanel2) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
