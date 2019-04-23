@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.*;
 import chatController.ChatBotController;
+import chatController.ChatBotRunner;
 
 public class ChatPanel 
 {
@@ -19,7 +20,7 @@ public class ChatPanel
 	private JTextArea chatArea;
 	private JScrollPane chatPane;
 	
-	public ChatPanel(ChatBotController app)
+	public ChatPanel(ChatBotRunner app)
 	{
 		super();
 		
